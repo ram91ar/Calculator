@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculater</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+
+<body>
+    <div id="calculator1">
+        <input type="text" id="display" readonly>
+        <div id="button-contnor">
+            <button class="button" onclick="clearInput();">AC</button>
+            <button class="button" onclick="backButton();"><</button>
+            <button class="button" onclick="getFinalResult(`%`);">%</button>
+            <button class="button" onclick="getFinalResult(`/`);">/</button>
+            <button class="button" onclick="getFinalResult(`1`);">1</button>
+            <button class=" button" onclick="getFinalResult(`2`);">2</button>
+            <button class="button" onclick="getFinalResult(`3`);">3</button>
+            <button class="button" onclick="getFinalResult(`+`);">+</button>
+            <button class="button" onclick="getFinalResult(`4`);">4</button>
+            <button class="button" onclick="getFinalResult(`5`);">5</button>
+            <button class="button" onclick="getFinalResult(`6`);">6</button>
+            <button class="button" onclick="getFinalResult(`-`);">-</button>
+            <button class="button" onclick="getFinalResult(`7`);">7</button>
+            <button class="button" onclick="getFinalResult(`8`);">8</button>
+            <button class="button" onclick="getFinalResult(`9`);">9</button>
+            <button class="button" onclick="getFinalResult(`*`);">*</button>
+            <button class="button" onclick="getFinalResult(`0`);">0</button>
+            <button class="button" onclick="getFinalResult(`.`);">.</button>
+            <button class="button" onclick="getFinalResult(`00`);">00</button>
+            <button class="button" onclick="calculat()">=</button>
+
+        </div>
+    </div>
+    <script src="Calculator.js">
+
+    </script>
+</body>
+
+</html>
